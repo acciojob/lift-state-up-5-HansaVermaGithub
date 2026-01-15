@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <h1>Parent Component</h1>
-        {isLoggedIn ? (<p> you are logged in </p>) : 
+        {isLoggedIn ? (<p>You are logged in!</p>) : 
           (<Login setIsLoggedIn={setIsLoggedIn}/>)
         }
          
